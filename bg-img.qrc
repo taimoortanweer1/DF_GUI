@@ -1,0 +1,52 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../jpgtopngconverter-com.jpg</file>
+        <file>../../maqps.jpg</file>
+        <file>../../map2.jpg</file>
+        <file>../../map4.jpg</file>
+        <file>../../map3.jpg</file>
+        <file>../../map5.jpg</file>
+        <file>df_images/map5.jpg</file>
+        <file>df_images/uni_logo185x80.png</file>
+        <file>df_images/file.png</file>
+        <file>df_images/AEEL_ (1).png</file>
+        <file>df_images/AEEL_.png</file>
+        <file>df_images/bg-img.jpg</file>
+        <file>df_images/depositphotos_173247084-stock-illustration-digital-radar-with-the-aims.jpg</file>
+        <file>df_images/df_logo.png</file>
+        <file>df_images/df_logo_100x100.png</file>
+        <file>df_images/file (1).png</file>
+        <file>df_images/file (1)-fotor-bg-remover-2024060617146.png</file>
+        <file>df_images/file (2).png</file>
+        <file>df_images/file (3) (1).png</file>
+        <file>df_images/file (3) (2).png</file>
+        <file>df_images/file (3) (3).png</file>
+        <file>df_images/file (3).png</file>
+        <file>df_images/file-min.png</file>
+        <file>df_images/final_figma_logo.jpg</file>
+        <file>df_images/final_figma_logo-fotor-bg-remover-2024061014535.png</file>
+        <file>df_images/jpgtopngconverter-com.jpg</file>
+        <file>df_images/lab_logo.png</file>
+        <file>df_images/lab_logo-Photoroom (1).png</file>
+        <file>df_images/lab_logo-Photoroom.png</file>
+        <file>df_images/labaeel.jpg</file>
+        <file>df_images/lof.jpg</file>
+        <file>df_images/logo.jpg</file>
+        <file>df_images/logoz.jpeg</file>
+        <file>df_images/map2.jpg</file>
+        <file>df_images/map3.jpg</file>
+        <file>df_images/map4.jpg</file>
+        <file>df_images/maqps.jpg</file>
+        <file>df_images/Screenshot 2024-06-05 122418.jpg</file>
+        <file>df_images/Screenshot 2024-06-10 141838.jpg</file>
+        <file>df_images/Screenshot 2024-06-10 142326.jpg</file>
+        <file>df_images/Screenshot 2024-06-10 142407.jpg</file>
+        <file>df_images/uni_logo (1).png</file>
+        <file>df_images/uni_logo (2).png</file>
+        <file>df_images/uni_logo.png</file>
+        <file>df_images/WhatsApp Image 2024-06-06 at 4.37.46 PM.jpeg</file>
+        <file>df_images/WhatsApp Image 2024-06-06 at 4.38.15 PM.jpeg</file>
+        <file>df_images/WhatsApp Image 2024-06-06 at 6.03.22 PM.jpeg</file>
+        <file>df_images/WhatsApp Image 2024-06-11 at 11.30.54 AM.jpeg</file>
+    </qresource>
+</RCC>

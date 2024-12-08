@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../uni_logo.svg</file>
+        <file>../../uni_logo (1).png</file>
+        <file>../../uni_logo (2).png</file>
+        <file>../../uni_logo185x80.png</file>
+    </qresource>
+</RCC>

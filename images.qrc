@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>df_images/map5.jpg</file>
+        <file>df_images/file.png</file>
+        <file>df_images/uni_logo185x80.png</file>
+        <file>df_images/background.png</file>
+    </qresource>
+</RCC>

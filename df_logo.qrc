@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../file.png</file>
+        <file>../../df_logo_100x100.png</file>
+    </qresource>
+</RCC>

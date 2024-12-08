@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DFChannel</class>
+ <widget class="QWidget" name="DFChannel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-21</x>
+     <y>75</y>
+     <width>1941</width>
+     <height>1011</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+background-color:rgba(107, 138, 122, 0.5);
+
+
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>1921</width>
+      <height>1011</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color:#3A383F;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QCustomPlot" name="customplot_1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>50</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QCustomPlot" name="customplot_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>240</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QCustomPlot" name="customplot_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>440</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QCustomPlot" name="customplot_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1380</x>
+       <y>630</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QCustomPlot" name="customplot_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1380</x>
+       <y>440</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QCustomPlot" name="customplot_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1380</x>
+       <y>240</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QCustomPlot" name="customplot_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1380</x>
+       <y>50</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QCustomPlot" name="customplot_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>630</y>
+       <width>400</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCustomPlot{
+background-color:#4d4d4d;
+}</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>50</y>
+       <width>721</width>
+       <height>740</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/map5.jpg);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>721</width>
+        <height>781</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2"/>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>810</y>
+       <width>1921</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color:#141218;
+
+
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>20</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color:rgb(107, 138, 122);
+border-radius:15px;
+
+}
+QPushButton:hover{
+
+background-color:#a3a3a3;
+
+}
+
+
+
+</string>
+      </property>
+      <property name="text">
+       <string>QUIT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>20</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color:#117AE9;
+border-radius:5px;
+
+}
+QPushButton:hover{
+
+background-color:#a3a3a3;
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Console Log</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>20</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color:#117AE9;
+border-radius:5px;
+
+}
+QPushButton:hover{
+
+background-color:#a3a3a3;
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Main View</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>1660</x>
+        <y>10</y>
+        <width>191</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-image:url(:/uni_logo185x80.png);
+background-repeat:no-repeat;
+background-color:transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>20</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color:rgb(107, 138, 122);
+border-radius:15px;
+
+}
+QPushButton:hover{
+
+background-color:#a3a3a3;
+
+}
+
+
+
+</string>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color:rgb(107, 138, 122);
+border-radius:15px;
+
+}
+QPushButton:hover{
+
+background-color:#a3a3a3;
+
+}
+
+
+
+</string>
+      </property>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>1240</x>
+        <y>20</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color:#117AE9;
+border-radius:5px;
+
+}
+QPushButton:hover{
+
+background-color:#a3a3a3;
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Expert View</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1921</width>
+     <height>86</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:#141218;
+color:#ffffff;
+font-size:24px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Track Hawk Direction Finder</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-image:url(:/df_logo_100x100.png);
+background-position:fixed;
+border-color:#102b03;
+background-color:transparent
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1720</x>
+     <y>0</y>
+     <width>201</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-image:url(:/AEEL_ (1).png);
+background-repeat:no-repeat;
+background-color:transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+color:#ffffff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Track Hawk Direction Finder</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
